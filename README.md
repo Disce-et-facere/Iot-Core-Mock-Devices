@@ -45,7 +45,7 @@ PATH_TO_AMAZON_ROOT_CA_1 = "certs/ca.pem"  # Path to Amazon Root CA
 
 # Topics
 TELEMETRY_TOPIC = f"{DEVICE_ID}/telemetry"  # Publish
-DB_ERROR_TOPIC = "error/dynamodb"  # Publish
+DB_ERROR_TOPIC = "error/dynamodb"  # Subscribe
 SHADOW_GET_TOPIC = f"$aws/things/{DEVICE_ID}/shadow/get"  # Publish
 SHADOW_UPDATE_TOPIC = f"$aws/things/{DEVICE_ID}/shadow/update"  # Publish
 SHADOW_DELTA_TOPIC = f"$aws/things/{DEVICE_ID}/shadow/update/delta"  # Subscribe
